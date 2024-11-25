@@ -1,0 +1,36 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.formContainer select {
+  border: 2px solid #0047AB;
+  border-radius: 5px;
+  width: 20rem;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.listContainer li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  font-size: 1.3rem;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.listContainer span {
+  font-weight: 700;
+}
